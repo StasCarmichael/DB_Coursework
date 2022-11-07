@@ -23,7 +23,6 @@ namespace Business.Services
 
 
 
-
         public async Task<IEnumerable<AdministratorModel>> GetAllAsync()
         {
             return mapper.Map<IEnumerable<Administrator>, IEnumerable<AdministratorModel>>
